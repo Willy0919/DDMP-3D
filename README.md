@@ -75,7 +75,7 @@ make
 
 ## Training
 
-You can change the batch_size according to the number of GPUs, default: 8 GPUs with batch_size = 5 on V100(32G).
+You can change the batch_size according to the number of GPUs, default: 8 GPUs with batch_size = 5 on Tesla v100(32G).
 
 If you want to utilize the resnet backbone pre-trained on the COCO dataset, it can be downloaded from [git](https://github.com/ruotianluo/pytorch-faster-rcnn) or [Google Drive](https://drive.google.com/drive/folders/0B7fNdx_jAqhtNE10TDZDbFRuU0E), default: ImageNet pretrained pytorch model. You can also set use_corner and corner_in_3d to False for quick training.
 
