@@ -92,7 +92,7 @@ Generate the results using:
 ```
 python scripts/test.py
 ```
-we afford the generated results for evaluation due to the tedious process of data preparation process. Unzip the output.zip and then execute the above evaluation commonds. We show the results in paper, and best model in supplementary. Additionally, we also trained a model replacing the depth map (only value of z) with coordinate xyz (xy are the values along x and y axises on 2D plane).
+we afford the generated results for evaluation due to the tedious process of data preparation process. Unzip the output.zip and then execute the above evaluation commonds. We show the results in paper, and best model in supplementary. Additionally, we also trained a model replacing the depth map (only contains value of z) with coordinate xyz (xy are the values along x and y axises on 2D plane).
 
 | Models | AP3D11@mod. | AP3D11@easy| AP3D11@hard|
 | -------- | ------- | -------- | ------- |
