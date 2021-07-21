@@ -25,18 +25,14 @@ Our code is based on [DGMN](https://github.com/lzrobots/dgmn), please refer to t
 - **My settings**
 
   ```shell
-  source ~/anaconda3/bin/activate (python 3.6.5)
-	(base)  pip list
-	torch                              1.1.0
+  	conda activate maskrcnn_benchmark 
+	(maskrcnn_benchmark)  conda list
+	python 				   3.8.5
+	pytorch                            1.4.0          
+	cudatoolkit          	           10.0.130  
 	torchfile                          0.1.0
-	torchvision                        0.3.0
-	numpy                              1.14.3
-	numpydoc                           0.8.0
-	numba                              0.38.0
-	visdom                             0.1.8.9
-	opencv-python                      4.1.0.25
-	easydict                           1.9
-	Shapely                            1.6.4.post2
+	torchvision                        0.5.0
+	apex                     	   0.1 
   ```
 
 
