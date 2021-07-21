@@ -46,7 +46,7 @@ ln -s /path/to/kitti data/kitti
 ln -s /path/to/kitti/testing data/kitti_split1/testing
   ```
 
-Our method uses [DORN](https://github.com/hufu6371/DORN) (or other monocular depth models) to extract depth maps for all images. You can download and unzip the depth maps extracted by DORN [here](https://drive.google.com/open?id=1lSJpQ8GUCxRNtWxo0lduYAbWkkXQa2cb) and put them (or softlink) to the folder **data/kitti/depth_2/**. (You can also change the path in the scripts **setup_depth.py**)
+Our method uses [DORN](https://github.com/hufu6371/DORN) (or other monocular depth models) to extract depth maps for all images. You can download and unzip the depth maps extracted by DORN [here](https://drive.google.com/open?id=1lSJpQ8GUCxRNtWxo0lduYAbWkkXQa2cb) and put them (or softlink) to the folder **data/kitti/depth_2/**. (You can also change the path in the scripts **setup_depth.py**). Additionally, we also generate the xyz map (xy are the values along x and y axises on 2D plane, and z is the depth value) and save as pickle files and then operate like depth map.
 
 Then use the following scripts to extract the data splits, which use softlinks to the above directory for efficient storage.
 
