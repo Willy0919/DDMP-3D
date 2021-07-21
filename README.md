@@ -73,7 +73,7 @@ make
 
 You can change the batch_size according to the number of GPUs, default: 8 GPUs with batch_size = 5 on Tesla v100(32G).
 
-If you want to utilize the resnet backbone pre-trained on the COCO dataset, it can be downloaded from [git](https://github.com/ruotianluo/pytorch-faster-rcnn) or [Google Drive](https://drive.google.com/drive/folders/0B7fNdx_jAqhtNE10TDZDbFRuU0E), default: ImageNet pretrained pytorch model. You can also set use_corner and corner_in_3d to False for quick training.
+If you want to utilize the resnet backbone pre-trained on the COCO dataset, it can be downloaded from [git](https://github.com/ruotianluo/pytorch-faster-rcnn) or [Google Drive](https://drive.google.com/drive/folders/0B7fNdx_jAqhtNE10TDZDbFRuU0E), default: ImageNet pretrained pytorch model, we downloaded the model and saved at 'data/'. You can also set use_corner and corner_in_3d to False for quick training.
 
 See the configurations in **scripts/config/config.py** and **scripts/train.py** for details. 
 
@@ -94,7 +94,7 @@ we afford the generated results for evaluation due to the tedious process of dat
 | -------- | ------- | -------- | ------- |
 | model in paper| 23.13 / 27.46 | 31.14 / 37.71 | 19.45 / 24.53 |
 | model in supp | 23.17 / 27.85 | 32.40 / 42.05 | 19.35 / 24.91 |
-| [model with coordinate(xyz)]() | 23.53 / 28.16 | 30.21 / 38.78 | 19.72 / 24.80 |
+| [model with coordinate(xyz)](https://drive.google.com/file/d/1BET1CqX3GrEWQHe-TSTX21yRDMNsDoC1/view?usp=sharing), [config](https://drive.google.com/file/d/1U9_qUg4QwenDi_3RCRwectCuJ3y-2V4V/view?usp=sharing) | 23.53 / 28.16 | 30.21 / 38.78 | 19.72 / 24.80 |
 
 
 ## Acknowledgements
