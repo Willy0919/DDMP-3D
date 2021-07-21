@@ -10,9 +10,6 @@ from maskrcnn_benchmark.modeling.make_layers import group_norm
 
 
 class DynamicWeightsCat33(nn.Module):
-    r'''' not a rigrous implementation but faster speed
-
-    '''''
 
     def __init__(self, channels, rgb_inchannel, group=1, kernel=3, dilation=(1, 1, 1), shuffle=False, deform=None):
         super(DynamicWeightsCat33, self).__init__()
