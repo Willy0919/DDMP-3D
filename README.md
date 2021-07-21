@@ -25,14 +25,14 @@ Our code is based on [DGMN](https://github.com/lzrobots/dgmn), please refer to t
 - **My settings**
 
   ```shell
-  	conda activate maskrcnn_benchmark 
+  conda activate maskrcnn_benchmark 
 	(maskrcnn_benchmark)  conda list
 	python				3.8.5
 	pytorch				1.4.0          
-	cudatoolkit			10.0.130  
-	torchfile			0.1.0
-	torchvision			0.5.0
-	apex				0.1 
+	cudatoolkit				10.0.130  
+	torchfile				0.1.0
+	torchvision				0.5.0
+	apex					0.1 
   ```
 
 
