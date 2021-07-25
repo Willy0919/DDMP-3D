@@ -95,7 +95,7 @@ def Config():
 
     # percent expected height ranges based on test_scale
     # used for anchor selection
-    conf.percent_anc_h = [0.03, 1.0]#[0.0625, 0.75]
+    conf.percent_anc_h = [0.0625, 0.75]
 
     # labels settings
     conf.min_gt_h = conf.test_scale * conf.percent_anc_h[0]
