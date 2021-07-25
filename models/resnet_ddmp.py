@@ -1,6 +1,6 @@
 import torch.nn as nn
 from lib.rpn_util import *
-from models import resnet_mod
+from models import resnet as resnet_mod
 import torch
 import numpy as np
 from models.deform_conv_v2 import *
@@ -139,7 +139,7 @@ class DynamicWeightsCat33(nn.Module):
         # affinity2 = affinity2.view(N, self.group, self.K, -1).permute(0, 1, 3, 2).contiguous().view(-1,
         #                                                                                             self.K)
         # affinity3 = affinity3.view(N, self.group, self.K, -1).permute(0, 1, 3, 2).contiguous().view(-1,
-                                                                                                    self.K)
+        #                                                                                            self.K)
         affinity1 = self.softmax(affinity1.view(N, self.group, self.K, -1).permute(0, 1, 3, 2).contiguous().view(-1,
                                                                                                                 self.K))
         affinity2 = self.softmax(affinity2.view(N, self.group, self.K, -1).permute(0, 1, 3, 2).contiguous().view(-1,
